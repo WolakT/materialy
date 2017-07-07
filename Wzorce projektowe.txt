@@ -1,0 +1,54 @@
+14.06.2017
+!!!!!!!!1
+
+Rusz glowa - wzorce projektowe ksiazka
+Effective Java
+javarevisisted !!!!!!!!!!!!!!
+
+-konstrukcyjne - Budowniczy
+-strukturalne - Dekorator
+-operacyjne - Strategia
+
+
+19.06.2017
+!!!!!!!!!!!!!!!
+
+
+Strategia
+
+Dekorator
+
+Fasada
+
+Fabryka - konstrukcyjny
+
+ctrl+alt+b - uzycie interface
+
+ctrl+alt+f7 - usages
+
+
+enkapsulacja - private
+
+
+patterns
+
+decorator
+strategia
+
+
+Open/close
+open for new implementations/ close for modifications
+
+
+Liskov substitution principle
+
+interface segregation principle
+wiecej interfaceow ktore maja pojedyncze metody
+
+Dependency induction principle
+
+
+
+
+
+

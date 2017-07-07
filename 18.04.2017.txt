@@ -1,0 +1,124 @@
+www.absl.pl - rynek it w liczbach
+
+absolvent success menager
+
+m.broda@sdacademy.pl
+
+Jakub Niemczyk 795 888 485
+
+Michal Przygorski m.przygorski@sdacademy.pl
+732 044 059
+
+piotrekchlebda@gmail.com
+
+slack application
+mozna poinformowac  Marka Grzybowskiego
+
+linux ubuntu 16.0.4
+
+hp laptop
+
+intelli j
+
+Code reformat code
+
+sout - System.out.println
+
+
+!!!!!!!!!!!!!!!!!!
+19.04.2017
+!!!!!!!!!!!!!!!!!!
+
+dizon  - subscribe
+
+git hub
+c
+wolak.tom@gmail.com
+tangoo84
+
+
+read me .md - skladnia mark down
+wyswietla wiadomosci
+
+operacje na reposytorium
+-Fork
+-clone
+-CRUD (change, read, update, delete)
+
+operacje na branchach
+
+
+git operacje lokalne
+git init
+git status
+git add . dodaje nowe
+git push origin master: (origin to alias - w to miejsce wypchnij to co mam w master)
+touch .gitignore (w nim lista plikow ktorych nie chcemy dodawac)
+git loc master - sprawdza commity
+git branch sprawdza na ktorym jestem branchu
+git log pokazuje comity
+git show - pokazuje zmiany w commicie
+
+
+Ostatni commit to HEAD
+
+GitFLow metodologia pracy z gitem
+
+praca z uzyciem branchy
+master
+feature branchy
+Develop
+
+VCS 
+termin okreslajacy systemy kontroli wersji
+version control systems
+
+Command line operations (linux)
+echo ""
+cat nazwa pliku - pokazuje zawartosc
+touch bubu.java
+cd - do ostatniego folderu w ktorym bylismy
+man git wyswietla oryginalna dokumentacje
+clear - czysci ekran 
+REPLwi
+Read eval print loop
+
+curl - do testowania serrvera restowego
+
+
+!!!!!!!!!!!!!!!
+20.04.2017
+!!!!!!!!!!!!!!!
+
+JAVA
+
+
+jvm abstrakcja nad sprzetem i sytemem operacyjnym
+
+POM - project object model
+
+
+org.myapplication.calculator
+
+!!!!!!!!!!!!!!
+21.04.2017
+!!!!!!!!!!!!!!!
+
+intelij
+initiowanie repo
+VCS
+enable
+na najjwyzszym folderze prawy klik
+Git
+Commit Directory
+
+to push:
+VCS Git push
+
+mvn archetype generate
+odpowiednik klikania maven na intelij
+
+live template mechanizm do generowania kodu
+
+edycja space lub tab i widoku
+File/settings/Editor/java

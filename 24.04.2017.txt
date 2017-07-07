@@ -1,0 +1,71 @@
+24.04.2017
+!!!!!!!!!!!!!
+
+junit sluzy do testow
+
+49
+
+camelCase dla metod
+
+maksymalna ilosc parametrow zalezy od stosu procesora
+im mniej tym lepiej - styl
+
+zmiana nazw zmiennych = prawy przycisk refactor rename
+
+sekcja refaktor extrakt
+
+metody statyczne powoduja ze mozemy wolac metody bez instancji
+klasy - tylko po nazwie klasy
+
+!!!!!!!!!!!!!
+25.04.2017
+!!!!!!!!!!!!!
+
+petle 
+continue kontynuuje kod
+
+arraylists nie trzeba okreslac rozmiaru ale za to nie mozna sie dostac do wartosci po indeksie
+
+array. lista metod
+
+
+READ!!!
+Sololearn
+Codility
+
+lgn = 20 * 1000000
+n^ = 1000000 *1000000
+
+
+UML - unified markup modeling language
+
+klasa to wzorzec 
+obiekt dziala w pamieci
+
+!!!!!!!!!!!!!!!!!!!111
+26.04.2017
+!!!!!!!!!!!!!!!!!!!!!!
+
+
+maven projects
+
+
+package powoduje wygenerowanie deploymentu
+(jesli mnostwo klas to zostana spakowane jar - java archive repository)
+
+site - zwiazane z web aplikacjami
+
+clean czysci pozostalosci po poprzednim buildzie
+
+INTELLIJ HINT!!!!!
+prawym na klase i generate - moze automatycznie wygenerowac geter and setter
+
+
+java collections - czesc java development kit
+google
+java collections framework
+https://javakeypoint.wordpress.com/2016/03/21/java-collection-framework/
+
+robocode!!
+
+Sets - zbior

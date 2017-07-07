@@ -1,0 +1,39 @@
+08.05.2018
+!!!!!!!!!!!!!!!!
+
+instance of - sprawdzamy jakiej klasy jest dany obiekt
+
+Liskov substitution principle
+
+SOLID zasada pisania kodu obiektowego w javie
+methods lowercase
+Classes Uppercase
+Interfaces Uppercase
+fields lowercase
+
+Assercje - testowanie czy to co mamy zamiar osiagnac zgadza sie z tym co program zrobil faktycznie
+
+
+10.05.2017
+!!!!!!!!!!!!!!
+
+klasa Abstrakcyjna od interfejsu
+dziedziczenie  - brak dziedziczenia
+
+Runtime Type INformation RTTI
+
+11.05.2017
+UML - cialgla linia extends
+	przerywana oznacza implements
+
+https://www.hackerrank.com/
+
+
+String.format("filght: %s , %s", arg1, arg2)
+
+abstract class
+
+object oriented design patterns
+
+17.05.2017
+SOURCE TREE  aplikacja do sledzenia kontroli wersji

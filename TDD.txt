@@ -1,0 +1,124 @@
+@wojtek_pi
+
+wojtekpietrucha@gmail.com
+
+TDD
+
+zaczynamy od testow
+
+tEst case
+
+!!!!!!!!!!!1
+ SOLID (single responsibility, open-closed, Liskov substitution, interface segregation and dependency inversion
+!!!!!!!!!!!!!!!!!!!
+
+test 
+- oczekiwania 
+- helps understanding code (dopisujemy test aby zrozumiec)
+- guarantee that new changes won't break the existing functionality
+-(metoda gumowej kaczki - tlumaczyc kod linijka po linijce)
+
+Write code that meets test
+czerwony fails
+zielony passes
+
+Refactor
+- improve design of your code
+- Clean Code -Rober Martin (uncle Bob)
+- Keep tests green
+= have a lot of fun
+
+How -
+Unit tests
+no dependencies to external resources
+-descriptive
+-one small piece of software
+-Prepare
+-run 
+-verify
+
+Frameworki do testow:(zestaw narzedzi)
+JUnint
+TestNG
+Spock w jezyku groovy
+AssertJ mechanizmy asercji
+
+Good unit test
+
+order independent
+reusable
+
+
+
+Maven pom w sekcji dependencies
+
+Ctrl+shift+T -tworzy test case
+CTRL+ALT+V - wyekstrktuje zmienna
+Ctrl+ALT+F - wyekstraktuje zmienna
+ctrl+shift+F10 - run
+
+
+Travis CI - git projekct musi miec .travis.xml
+opisane kryteria ktore musza byc spelnione aby zmergowac projekt
+
+
+09.06.2017
+!!!!!!!!!!!!!!!!!!!!!11
+dzone - 7 popular unit test naming
+
+
+should_when - naming convention
+
+manual tests 
+functional
+Integration
+Unit
+
+
+Mocking
+
+Mockito Maven:
+
+Mockito all jesli nie mamy maven'a
+
+Mockito core 
+
+Methody 
+
+when, verify , 
+
+
+12.06.2017
+!!!!!!!!!!!!!!!!!!
+
+
+alt+enter - otworzyc lampke czerwona
+alt+F8 - evaluate expression
+
+
+
+Mockito 2.8.9 Maven
+
+rule - assertj
+
+Tworzenie mockow
+
+- Mockito.mock()
+-adnotacja @MOck:
+	-@RunWit(MOckitoJunitRunner)
+	-@Rule public MockitoRule mockito = MockitoJUnit.rule	();
+	MockitoAnnotations.initMocks(Object) in @Before method
+
+http://static.javadoc.io/org.mockito/mockito-core/2.8.9/org/mockito/Mockito.html
+
+
+Testy Parametryzowane
+
+JunitParams - biblioteka
+
+
+UJIC
+devskiller
+
+regex101.com
+

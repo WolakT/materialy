@@ -1,0 +1,40 @@
+programowanie II
+
+Concurency <> multithreading
+
+
+native thread
+
+green thread
+
+synchronizowany dostep do pamieci
+
+java.util.concurency
+
+
+22.06.2017
+!!!!!!!!!!!!
+
+Akka
+
+pull (kolejka z watkami)
+executor (wykonuje runnable jesli jest wolny watek)
+
+
+MVC
+
+model view controller
+
+model posiada logike businesowa
+
+view - czesc aplikacji ktora odpowiada za interface
+
+Controller spina te dwie ze soba
+
+
+
+x|o|x
+-+-+-
+x|o|x
+-+-+-
+x|X|o

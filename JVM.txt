@@ -1,0 +1,26 @@
+06.06.2017
+
+Java Virtual Machine
+
+Minor GC
+Major GC
+Full GC
+
+
+
+07.06.2017
+
+memory leak
+wyciek pamieci - obiekt ktory jest niepotrzebny ale pozostaje w pamieci
+
+HashMap
+
+
+Consola
+jps pokazuje aktywne procesy jvm
+
+
+int i = true? 2:1;
+
+javarevisited - hasmap
+

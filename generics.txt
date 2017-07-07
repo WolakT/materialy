@@ -1,0 +1,37 @@
+package com.company;
+
+
+
+
+/**
+ * Created by RENT on 2017-05-24.
+ */
+public class MyArrayList {
+
+    private Object tempNext;
+
+    public void add(Object o){
+        MyItem newItem = new MyItem(o);
+        newItem.setNext(tempNext);
+       tempNext = newItem;
+
+    }
+    public Object getByIndex(int index){
+        int counter=0;
+        Object current = tempNext;
+        while(current != null){
+            current =((MyItem) current).getNext();
+            counter ++;
+        } return counter;
+    }
+    
+    public int size (){
+        int counter=0;
+        Object current = tempNext;
+        while(current != null){
+            current =((MyItem) current).getNext();
+            counter ++;
+        } return counter;
+    }
+    
+}

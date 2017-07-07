@@ -1,0 +1,147 @@
+19.05.2017
+
+zlozonosc obliczeniowa
+O(n2) 
+sortowanie babelkowe n do kwadratu
+logarytmiczna
+O(nlogn)
+
+liniowe
+O(1)
+
+zlozonosc pamieciowa
+ile zajmuje miejsca w pamieci - bubble sort ma mala zlozonosc pamieciowa
+
+Quora
+
+klasa person
+wiek nazwisko
+
+ma sortowac po wieku a potem po nazwisku
+
+
+22.05.2017
+!!!!!!!!!!!!!!!!!!!!!
+
+
+List klasa bazowa abstrakcyjna
+
+array list extends z list
+
+set - zbior
+
+MD5 algorytm do tworzenia sumy(cyfry) kontrolnej - funkcja skrotu
+hash po angielsku
+
+has set implementujce cyfre kontrolna
+
+mapa key value pairs
+
+
+
+
+29.05.2017
+!!!!!!!!!!!!
+INPUT OUTPUT
+
+Stdin - standardowe wejscie
+stdout standardowe wyjscie
+stderr - wyjscie bledu
+
+
+System plikow format - sposob przedstawiania danych
+
+Unix wielkosc znakow ma znaczenie
+
+Mac piszac uwzglednia - czytajac nie uwzglednia wielkosci liter
+
+Windows nie ma znaczenia
+
+uprawnienia pliku
+0644
+
+6 - mozli
+read = 4
+write = 4
+x =1
+
+pliki wykonywalne exe .bat
+
+na  innych systemach musi miec uprawnienie x
+w przypadku katalogu x pozwala wejsc do katalogu;
+
+grupy 
+owner
+grupa
+wszyscy
+
+operacje na plikach
+Open	kilka trybow - R(ead) W(rite) A(ppend)
+	w pliku nie mozemy umiescic czegos w srodku
+	W = samo otwarcie pliku powoduje usuniecie zawartosci
+	Otwieranie binarne program czyta kod binarny a nie jego 
+	interpretacje
+
+Close
+Seek/rewind ustawianie wskaznika (A domyslnie na koncu)
+Write
+Read
+
+
+Linux: ulimit -a (pokaze limit plikow ktore moga byc jednoczesnie otwarte)
+
+klasa File (prymitywna) - nie obslugule symlinkow w systemach nie windowsowych
+
+NIO - New I/O collection of java programming language APIs
+
+
+!!!!!!!!!!
+31.05.2017
+!!!!!!!!!!!!!!!!!!!!
+
+
+class FileWriter
+
+
+bajt 8 bitow
+ISO88592 - standard dla znakow naszego regionu
+
+Unicode - UTF -konkretny sposob zapisu znakow
+UTF8 dla znakow lacinskich jak ascii
+UTF32 4 bajty
+
+java
+int 4 bajty (oktet 4 osemki)
+long 8 bajtow
+
+reprezentacja zmiennoprzecinkowa
+
+int x = 5;
+int x = 0xa; - hex
+
+XML 
+JSON JavaScript Object Notation
+
+!!!!!!!!!!!!
+Odwrotna Notacja Polska
+
+Funkcja Lambda funkcja bez nazwy
+na przyklad (
+
+
+05.06.2017
+!!!!!!!!!!!!!!
+
+
+PRZYKLADY UZYCIA STATICA
+
+
+Singleton pattern przyklad uzycia static
+jesli pracujemy na jednej instancji obiektu
+ABC.getInstance
+Class ABC 
+private Statci ABC instance = null
+
+factory pattern
+
+MVC
