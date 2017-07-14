@@ -1,0 +1,142 @@
+07.07.2017
+!!!!!!!!!!!!!!
+
+create database .....;
+
+drop database ....; usuniecie
+
+create table tableName (
+
+)
+
+use database name - zawsze bedziemy uzywac tej tabeli
+
+
+create table faktury (
+id int primary key not null auto_increment,
+id_sprzedawca int not null, 
+id_kupujacy int not null, 
+towary int not null, 
+ilosc int not null, 
+nr_faktury int not null
+
+)
+
+
+insert into faktury (id_sprzedawca, id_kupujacy, towary, ilosc, nr_faktury) values 
+((1,2,1,1202 ),
+(1,2,2,1202 ),
+(1,2,3,1202 ),
+(1,2,4,1202 )
+);
+
+zabawki 90
+
+select towary.nazwa, ilosc, sum(ilosc) as ilosciii from faktury inner join 
+towary where towary.id = faktury.towary group by towary.nazwa order by ilosc DESC
+
+
+
+10/07/2017
+!!!!!!!!!!!!!!!!!!!!
+
+
+create user user1 IDENTIFIED BY PASSWORD
+
+
+create user user1 IDENTIFIED with sha256_password 'pass123';
+
+
+create user 'user1'@'*' identified by 'pass123';
+jesli chcemy ustawic zeby polaczenie bylo tylko serwera aplikacji z serwerem bazy danych
+
+CREATE {DATABASE | SCHEMA} [IF NOT EXISTS] db_name
+    [create_specification] ...
+
+create_specification:
+    [DEFAULT] CHARACTER SET [=] charset_name
+  | [DEFAULT] COLLATE [=] collation_name
+
+nadawanie dostepu
+
+
+grant all on user1_db.* to user1; 
+
+
+create table test (
+id int primary key auto_increment,
+log_tekst text not null,
+time_stamp timestamp not null default now(),
+
+)
+
+select * from test where time_stamp > "2017-07-10 19:21:00" and time_stamp < "2017-07-10 19:22:36" ;
+
+dodawanie kolumny z kluczem obcego
+
+alter table logs add category int not null default 1 ,
+add foreign key (category) references log_categories(id)
+on delete restrict
+;
+
+inner join
+
+create view all_logs as 
+select log_tekst, time_stamp, name from logs inner join log_categories where logs.category = log_categories.id ;
+
+
+
+
+select name, count(log_categories.id) from log_categories 
+inner join logs where log_categories.id = logs.category group by logs.category;
+
+lista przystankow
+ID , nazwa
+
+lista linii autobusowych
+id, numer
+trasa powiazanie przystanku z autobusem
+id, id autobusu, id przystanku, kolejnosc
+
+line_no char(3) not null
+
+on delete cascade
+
+
+alter table trasy add foreign key (id_autobusu) references przystankitrasy_ibfk_1trasy_ibfk_2trasy_ibfk_2(id) on delete cascade;f
+
+select wykonany na view
+select nazwa from view_przystanki where numer like "501" order by kolejnosc desc;
+
+view przystanki
+
+create view view_przystanki as select numer, nazwa, kolejnosc from trasy  inner join przystanki, linie 
+where trasy.id_przystanku = przystanki.id and trasy.id_autobusu = linie.id;
+
+13.07.2017
+!!!!!!!!!!!!!!
+
+14.07.2017
+
+update  hotels_in_offer set number_days =115
+ where hotels.id <=3;
+
+
+
+delimiter ::
+
+create procedure p2(inout a int, in b int)
+begin
+	set a=a + b;
+end::
+
+delimiter ;
+
+
+set @c = 20;
+select @c;
+
+procedura
+przyjmuje  2 liczby 
+
+
