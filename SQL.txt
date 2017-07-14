@@ -139,4 +139,66 @@ select @c;
 procedura
 przyjmuje  2 liczby 
 
+zwraca ich srednia
+
+
+
+delimiter ::
+
+create function f1(a int, b int) returns int
+
+
+begin
+
+
+return a + b;
+
+end::
+
+
+
+delimiter ;
+
+
+select f1(2,3);
+
+
+
+
+delimiter ::
+
+
+create trigger add_one before insert on liczby for each row
+
+
+begin
+
+	set NEW.liczba = NEW.liczba +1;
+
+end::
+
+
+delimiter ;
+
+
+delimiter ::
+
+
+create trigger limited before insert on liczby for each row
+
+begin
+	
+	if new.liczba < 100 then
+
+    		SIGNAL sqlstate "45000";
+
+ 	end if;
+
+   
+end::
+
+
+delimiter ;
+
+
 
