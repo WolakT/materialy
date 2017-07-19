@@ -1,0 +1,173 @@
+
+17.07.2017
+
+odp tabeli jest kolekcja
+odp wiersza jest dokument
+odp kolumny jest klucz - pole
+
+struktura dokumentu jest dowolna
+
+Json
+
+1
+"test"
+true
+[1,2,4,5]
+[2,"test"]
+
+objekty:
+{
+"pos":1,
+tamp: false
+}
+
+C:\> Set-Location -Path Q:\MyDir
+
+
+
+mongod.exe --dbpath "C:\Program Files\MongoDB\Server\3.4\bin"
+
+C:\Users\RENT\Desktop\db
+
+potem w osobnym oknie mongo.exe
+
+use <dbname>
+
+przelacza sie na baze danych
+
+stworzenie kolekcji - odpowiednik tabeli
+db.createCollection("test", {autoINdexId: true})
+
+db.test.insertOne({text:"lubiejave"})
+
+db.test.find() - zwraca zawartosc, lub wyszukuje
+
+db.articles.find({author: "anonim"}).pretty()
+
+db.articles.insertOne({ title: "jakis post2", content: "to jest testowy" ....
+
+power shell - ./
+
+
+db.produkty.insertOne({
+nazwa: "chleb",
+kategoria: "pieczywo",
+alergeny: ["gluten", "soja"],
+producent:
+{
+nazwa: "pawlak",
+adres: "krakow",
+www: "www.pawlak.pl",
+fax: "12 233 34 54",
+tel" "12 234 23 23"})
+
+
+db.sprzedawcy.find().map(function(doc){
+doc.amount *= 1.23;
+return doc;
+})
+
+db.sprzedawcy.mapReduce(function(
+emit(this.seller_id, amount);
+
+), function(key, values){
+var sum = 0;
+for(var i = 0; i < values.length; ++i){
+sum += values[i];
+}
+return {seller_id: key, amount: sum}
+})
+
+
+18.07.2017
+!!!!!!!!!!!!!!!!!!!!!
+
+mapreduce
+
+db.people.find().map(function(doc){
+return doc.name + " " + doc.surname;
+})
+
+(S,E) = r*(e-s)+s
+
+
+db.people.find().map(function(doc){
+return doc.name + " " + doc.surname;
+})
+
+db.people.find().map(function(doc){
+
+doc.numbers = [];
+
+var size = Math.floor(Math.random() * 15) + 5;
+for(var i = 0; i < size; ++i){
+doc.numbers.push(Math.floor(Math.random() * 99) +1);
+} return doc;
+})
+
+
+
+db.people.find().forEach(function(doc) {
+
+    var numbers = [];
+ 
+   
+    var size = Math.floor(Math.random() * 15) + 5;
+    
+    for(var i = 0;i < size;++i) 
+{
+        
+numbers.push(Math.floor(Math.random() * 99) + 1);
+
+   }
+    
+    
+db.people.updateOne(
+  
+      { _id: doc._id},
+  
+      {
+            $set: {
+  
+              "numbers": numbers
+    
+        }
+    
+    }
+  
+  );
+})
+
+
+db.people.mapReduce(
+	function(){
+	for(var i = 0; i < this.numbers.length; ++i){
+	emit(this.name + " " + this.surname, this.numbers[i]);
+
+	}
+
+},
+	function(key,values) {
+	return Array.sum(values);
+	},{
+	out: {inline: 1}	
+})
+
+
+db.people.find().forEach(functions(doc){
+	for(var i = 0; i < this.numbers.length; ++i){
+		var number = doc.numbers[i];
+		db.people2.insertOne({
+		"name": doc.name,
+		"surname": doc.surname,
+		"number": doc.number
+		});
+	}
+
+})
+
+
+podawanie daty
+
+db.date-test.insertOne({"date": new Date()})
+

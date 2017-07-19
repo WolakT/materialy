@@ -1,0 +1,82 @@
+
+
+db.articles.insertMany([
+{
+title: "Jakis post",
+content: "testowy tekst",
+author: "anonim"
+
+
+},
+
+title: "Jakis post2",
+content: "testowy tekst2",
+author: "anonim2"
+comments: [
+	{
+	content: "Nie zgadzam sie",	
+	author: "ja",
+	comments: [
+		{
+		content: "nie",
+		author" "Ty"
+
+		},
+		{
+		content: "tak",
+		author: "On"
+
+		}
+
+		]
+	}	
+]
+
+])
+
+db.trips.insertOne(
+{
+	
+	country: "Greece",
+	city: "Zakynthos",
+	hotel_name: "Panathinaikos",
+	price: 89,
+	days: 7,
+	alternative_hotels: 
+	[{
+		hotel_name: "Olimp",
+		price: 78,	
+		days: 3
+		}],
+	alternative_trips: [{
+			city: "Athen",
+			price: "123"
+			},{	
+			city: "Kreta",
+			price: "190"
+			}],
+	sold_trips:[
+	{
+	start_date: "01.08.2017",
+	customer: {
+		name: "Jan Oleksy",
+		phone: "343 343 232",
+		address" "krakow"
+				},
+	clerk_name: "Anna Iksinska",
+	discount: 10
+	
+	},
+	{
+	start_date: "07.08.2017",
+	customer:{ 
+		name: "Zygmunt Iksinski",
+		phone: "234 243 243",
+		address: "krakow"
+				},
+	clerk_name: "Anna Iksinska",
+	discount: 30
+	}
+	]
+	
+})
