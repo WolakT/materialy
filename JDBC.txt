@@ -1,0 +1,15 @@
+"jdbc:mysql://localhost/javadb?"
+
+
+localhost:3306 (port SQL)
+
+jdbc:mysql - driver
+
+javadb nazwa bazy danych
+
+jesli nie podana trzeba wysylac use do bazy danych
+
+
+DAO
+
+Data Access Object sluzy do pobierania danych

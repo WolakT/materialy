@@ -1,0 +1,11 @@
+24.07.2017
+
+
+Hibernate 5.0.2
+hibernate-core
+
+przez xml albo adnotacje - mapowanie
+
+generator class="identity" - baza danych bedzie wstawiac wartosci
+
+adnotacje dodawanie informacji do klasy, 

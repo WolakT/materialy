@@ -24,11 +24,11 @@ nr_faktury int not null
 
 
 insert into faktury (id_sprzedawca, id_kupujacy, towary, ilosc, nr_faktury) values 
-((1,2,1,1202 ),
+(1,2,1,1202 ),
 (1,2,2,1202 ),
 (1,2,3,1202 ),
 (1,2,4,1202 )
-);
+;
 
 zabawki 90
 

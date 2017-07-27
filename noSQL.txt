@@ -21,7 +21,7 @@ objekty:
 tamp: false
 }
 
-C:\> Set-Location -Path Q:\MyDir
+C:\> Set-Location -Path "C:\Program Files\MongoDB\Server\3.4\bin"
 
 
 
@@ -41,7 +41,6 @@ db.createCollection("test", {autoINdexId: true})
 db.test.insertOne({text:"lubiejave"})
 
 db.test.find() - zwraca zawartosc, lub wyszukuje
-
 db.articles.find({author: "anonim"}).pretty()
 
 db.articles.insertOne({ title: "jakis post2", content: "to jest testowy" ....

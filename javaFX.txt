@@ -1,0 +1,14 @@
+20.07.2017
+!!!!!!!!!!!!!!!!!
+
+Stage - stackpane
+Scene
+Layout
+button
+
+Listener - zdarzenie 
+
+EventHandler - jest listenerem
+
+xml
+
