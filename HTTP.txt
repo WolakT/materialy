@@ -3,3 +3,26 @@
 
 client - server
 
+http request
+
+http 1.1
+
+request line
+request headers
+
+http response
+STatus line
+
+REST
+
+get 
+put 
+post 
+delete
+
+styl architektury programowania
+
+
+startup.sh
+
+
