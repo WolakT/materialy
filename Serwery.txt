@@ -1,0 +1,136 @@
+servery
+
+31.07.2017
+!!!!!!!!!!!!!!11
+
+serwer komputer podpiety do sieci ktory udostepnia zasoby
+
+identyfikacja w sieci po IP
+
+adres IP 0..255.0..255.0..255.0..255
+
+router nadaje IP poprzez usluge DHCP
+
+DNS
+
+wiele uslug na jednym serwerze obslugiwane przez porty
+
+dwa sposoby wysylania danych
+
+TCP i UDP
+
+TCP -zada odpowiedzi - wysylanie danych (jesli ktoras czesc przepadnie zostanie pobrana jeszcze raz)
+
+UDP - na przyklad live stream
+
+REquest
+
+Response
+
+
+Request naglowki
+
+
+Get request www.domena.pl/?data=value&
+
+
+Response naglowki 
+content type
+
+Acces control allow origin
+kod odpowiedzi
+to co zwracamy w rest - json
+jesli strona to html
+
+
+
+skalowanie wertykalne - ulepszenie serwera
+jesli za duzo osob korzysta z serwisu
+
+skalowanie horyzontalne - dzielimy odpowiedzialnosc pomiedzy maszyny
+
+mikroserwisy odpowiedz na problem z iloscia dostepu do serwera
+
+
+Przekierowania
+po stronie klienta lub serwera
+
+301 zwraca nowy adres
+
+302 przekierowanie tymczasowe
+
+po stronie servera
+ten sam adres IP serwera ale rozne domeny (domena przekazywana w header HOST)
+
+RAiD
+https://pl.wikipedia.org/wiki/RAID
+
+single point of failure
+
+Docker
+
+HTML 
+header
+body
+div
+p 
+a href
+
+#id
+.aaa - class
+
+
+css
+div.aaa{
+
+color: yellow;
+display: inline;
+}
+
+
+
+javaScript
+
+var -
+
+bez var zakres globalny
+
+najpierw czyta naglowki funkcji
+
+var a = function(){
+console.log("f");
+}
+
+a();
+
+
+undefined
+null
+NaN not a number
+
+Obiekty
+
+var o = {
+	name: ""
+	surname: ""
+};
+
+o.test = "test";
+
+O.["test2"] = "test2";
+
+var a = [2,34,5];
+var b = new Array(2,4,23,5);
+
+funkcja tez jest obiektem
+
+f.test = "test"
+
+
+function Person(name, surname){
+this.name = name;
+this.surname = surname;
+}
+
+var p = new Person("tst", "testowy");
+
