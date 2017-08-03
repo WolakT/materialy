@@ -1,0 +1,44 @@
+01.08.2017
+!!!!!!!!!!!
+
+moduly
+komponenty
+dyrektywy
+
+dependency injection
+uslugi mozna wstrzykiwac
+
+komponent odpowiada kontrolerowi
+uslugi odpowiadaja modelowi
+
+zainstalowac node.js - instrukcja na stronei angular
+
+npm install -g @angular/cli
+
+npm install -g typescript
+
+stworzyc aplikacje:
+ng new my_application -o
+
+
+
+Type script:
+
+title:String - deklaracja typu
+
+bootstrapowanie - dynamiczne developerka
+statyczne produkcja
+przeksztalcenie html z projetku do takiego ktory przyczyta browser
+
+
+
+tworzac usluge
+
+@Injectable
+export class
+
+injectable
+
+zaimportowac w module 
+
+dodac do providersow w module

@@ -86,8 +86,11 @@ div.aaa{
 color: yellow;
 display: inline;
 }
+atrybut, tag, class, id
 
 
+wstawic css
+plik , tag , atrybut
 
 javaScript
 
@@ -134,3 +137,9 @@ this.surname = surname;
 
 var p = new Person("tst", "testowy");
 
+
+
+Docker usprawnia wirtualizacje
+
+01.08.2017
+!!!!!!!!!!!!!!
