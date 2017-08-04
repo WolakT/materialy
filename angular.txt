@@ -11,6 +11,8 @@ uslugi mozna wstrzykiwac
 komponent odpowiada kontrolerowi
 uslugi odpowiadaja modelowi
 
+moduly opakowuja wszystko - podobne do pakietow w javie
+
 zainstalowac node.js - instrukcja na stronei angular
 
 npm install -g @angular/cli
