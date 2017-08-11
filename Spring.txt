@@ -42,5 +42,5 @@ dependency injection
 
 bean klasa w javie zarzadzana w kontekscie springowym - kontekst mapa ktora przechowuje beany. Dla duzych projektow wstrzyknie dependencje
 
-
+kompilowany interpretowany
 
