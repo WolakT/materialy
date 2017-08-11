@@ -1,1 +1,22 @@
 Spring boot -
+
+
+DTO - data transfer object bez logiki zamiana za json na klase i na odwrot
+
+@PathVariable - identyfikacja zasobu (uzytkownik
+
+@RequestParam - kryteria wyszukiwania
+
+spring boot dedykowany pod resta 
+
+rest styl architektury - pomaga tworzyc i usuwac zasoby na serwerze
+
+typ AtomicLong zapobiega dostepowi do zmiennej przez dwa watki jednoczesnie
+
+
+mechanizm refleksji pobrac instancje i przeczytac pola
+
+
+DTO - data transfer object bez logiki zamiana za json na klase i na odwrot
+
+Plain Old Java Object (POJO) – termin u¿ywany przez zwolenników idei mówi¹cej, ¿e im prostszy design tym lepiej. U¿ywa siê go dla okreœlenia obiektów, bêd¹cych zwyczajnymi obiektami Java, nie zaœ obiektami specjalnymi, w szczególnoœci Enterprise JavaBeans (zw³aszcza w implementacji wczeœniejszej ni¿ EJB3).
