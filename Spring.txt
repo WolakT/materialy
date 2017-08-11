@@ -1,0 +1,46 @@
+10.08.2017
+
+zestaw bibliotek napisanych w javie. framework
+
+spring core - mechanizm do tworzenia klas - 
+
+refleksja - w trakcie wykonywania programu
+
+potem wstrzykuje w dane miejsce - brak koniecznosci tworzenia z new
+
+Bean - klasa w javie zarzadzana przez springa 
+
+
+adnotacja
+@Controller - klasy odbierajace zadania http
+
+presentation - kontroler
+service logika
+persistance/dao - baza danych
+
+
+scope beana w springu - domyslnie singleton
+
+prototyp zeby moc stworzyc wiecej
+
+request - dla zapytan na serwerze jest tworzona instancja
+
+
+biblioteki w pom
+
+wstrzykiwanie zaleznosci
+
+-konstruktor
+-setter
+-prywatne pole
+
+inversion of control
+
+context springa zarzadza cyklem zycia beanow poprzez stworzenie i wstrzykniecie
+
+dependency injection
+
+bean klasa w javie zarzadzana w kontekscie springowym - kontekst mapa ktora przechowuje beany. Dla duzych projektow wstrzyknie dependencje
+
+
+
