@@ -1,0 +1,25 @@
+spring data
+
+powiazanie z baza danych
+
+H2
+
+CRUD create read update delete
+
+controller odpowiada na zapytania http
+
+spring.io - inicjalizator projektu
+
+Persistence
+
+JPA - Java persistence api
+
+
+DTO - Data transfer Object
+
+
+mockMVC - biblioteka springa do testow integracyjnych
+
+
+
+tiobe
