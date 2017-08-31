@@ -21,4 +21,52 @@ thread.join
 
 thread.setDaemon(true); - wtedy program nie czeka na taki watek
 
+30.08.2017
+!!!!!!!!!
 
+flatmap splaszczenie - naprzyklad lista list -> list
+
+filter (predicate)
+
+Optional
+-map
+-flatmap
+
+
+metoda referencyjna
+gdy na wejsciu mamy jeden argument
+
+Functions::display
+==
+i->display(i)
+
+String::length
+==
+s->s.length()
+
+flatmap(List::stream)
+
+
+Optional.ofNullable();
+
+
+Optional<sTring> var = Optional.ofNullable(val);
+
+Optional.ofNullable(val).map(String::length).
+
+
+stream().anyMatch(predicate) zwraca czy warunek jest choc raz spelniony
+stream().allMatch(predicate) czy jest spelniony dla wszystkich
+
+
+comparator - compare(t o1, t o2)
+
+comparable  - compareTo(T o)
+
+dwa interfejsy
+
+stream().distinct() - usunie duplikaty
+
+findAny() - znajdzie obiekt pierwszy ktory napotka
+
+collect(Collectors.joining(delimiter))
