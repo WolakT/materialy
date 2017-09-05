@@ -70,3 +70,6 @@ stream().distinct() - usunie duplikaty
 findAny() - znajdzie obiekt pierwszy ktory napotka
 
 collect(Collectors.joining(delimiter))
+
+
+

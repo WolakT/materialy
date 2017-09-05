@@ -1,0 +1,21 @@
+
+
+
+Initiative 
+Integracja Facebooka z Aplikacja Messenger
+
+jako uzytkownik chcialbym odbierac wiadomosci z messengera w trakcie przegladania facebooka abym nie musial sie przelaczac pomiedzy aplikacjami
+
+jako uzytkownik chcialbym wysylac wiadomosci z messengera w trakcie przegladania facebooka abym nie musial sie przelaczac pomiedzy aplikacjami
+
+
+jako uzytkownik odbierac i wysylac filmy video w trakcie przegladania facebooka abym nie musial sie przelaczac pomiedzy aplikacjami. 
+
+
+security/logowanie
+
+serwis
+
+
+
+jako architekt chcialbym aby byly zrobione testy abym wiedzial czy dziala dobrze

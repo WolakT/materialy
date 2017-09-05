@@ -1,0 +1,114 @@
+04.09.2017
+!!!!!!!!!!!!!
+
+mytnik michal
+
+
+dlug techniczny - nalezy zalozyc ze praca nad aplikacja obejmuje ciagle ulepszanie poprawianie do nowych wersji
+
+
+kaskadowe
+
+communication
+	planning
+		modeling
+			construction
+				deployment
+
+podejscie schematyczne ustalone na sztywno
+
+przyklad produkcja samolotu - zaplanowane od poczatku do konca
+
+
+Agile - manifest programowania zwinnego
+
+- ludzie i interakcje
+- dzialajace oprog
+- wspolpraca z klientem
+- reagowanie na zmiany
+
+
+iteracja
+przyrost funnkcjonalnosci
+
+
+
+EXtreme Programming 
+
+agileowe podejscie do programowania 
+
+male i srednie projekty - gdzie sa niewiadome - 
+
+krotsze iteracje - bardziej proof of concept - projekty wewnetrzne technologiczne
+
+testy jednostkowe
+modyfikacje - rozne podejscia
+
+
+Behavior driven design
+
+Pairprogramming
+
+
+Continous integration
+development na feature branch - code review -> pre-commit musza przechodzic testy aby zacommitowac
+feature branch
+code review
+ci - jenkins
+wdrozenie
+
+jenkins - narzedzie do continous integration
+
+
+code review
+stash
+bitbacket
+
+ask for code review
+
+krotkie metody
+testy
+
+
+
+ System.out.println("What's inside?:" + Arrays.stream(args).collect(Collectors.toList()));
+        System.out.println("[STRING?, STRING?]"+ Arrays.stream(args).map(s -> s.chars().allMatch(Character::isLetter)).collect(Collectors.toList()));
+
+
+05.09.2017
+!!!!!!!!!!!!!!!!!!!!!
+
+
+Scrum
+proces iteracyjny
+
+workshopy pierwsze wymagania 
+
+pozniej zaczynaja sie iteracje
+
+na koniec iteracji 3 rzeczy spotkania (prezentacja, retrosptekcja, ...)
+
+Initiative 
+Epic
+Story/task - logowanie klienta
+subtask - testy,
+
+sprint planning - kazda iteracja
+story opisane w ten sposob
+As a who
+I want what
+so that why
+
+Story musi spelniac:
+Independent - niezalezne
+Negotiable - modifikowalne
+Valuable - wartosc biznesowa  ale tez wwartosc techniczna (dlug technologiczny)
+Estimable - mozliwosc oszacowania
+Sized Appropriately - odpowiednia estymacja czasu trwania
+Testable -
+
+
+
+
+
+
