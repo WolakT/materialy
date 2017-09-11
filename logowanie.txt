@@ -1,0 +1,20 @@
+
+logowanie tresci do konsoli
+
+Logger - klasa 
+
+RollingFile, Console
+
+Framework
+
+Log4J
+
+chain of responsibility
+
+najnizszy poziom logowania -
+trace
+	potem debug
+		INFO
+			Warn
+				Error
+					Fatal

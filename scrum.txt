@@ -15,6 +15,17 @@ communication
 			construction
 				deployment
 
+
+waterfall
+
+planowanie
+	design 
+		model projektu architektura
+			testy codowanie
+				wdrozenie
+
+
+
 podejscie schematyczne ustalone na sztywno
 
 przyklad produkcja samolotu - zaplanowane od poczatku do konca
@@ -82,11 +93,14 @@ testy
 Scrum
 proces iteracyjny
 
-workshopy pierwsze wymagania 
+workshopy pierwsze wymagania - product backlog jest kontenerem spotkania
 
 pozniej zaczynaja sie iteracje
 
-na koniec iteracji 3 rzeczy spotkania (prezentacja, retrosptekcja, ...)
+okreslana velocity -
+sprint - okres czasu 2-4 tygodnie
+
+na koniec iteracji 3 rzeczy spotkania (review, retrospektywa(co dobrze co zle i co poprawic) prezentacja)
 
 Initiative 
 Epic
@@ -107,7 +121,69 @@ Estimable - mozliwosc oszacowania
 Sized Appropriately - odpowiednia estymacja czasu trwania
 Testable -
 
+storyja powinna miec tytul
 
+w zmiany do backloga w trakcie sprintu nie wprowadzamy zmian
+
+Role
+
+
+
+
+3-9 osob
+
+Product owner
+
+scrum muster - sprawy organizacyjne, razem z zespolem
+
+scrum team architekt, programista, unix designer
+
+
+06.09.2017
+!!!!!!!!!!!!!!!!!!!!!!
+
+Scrum - aktywnosci
+
+Sprint backlog - storyjki z product backlog ograniczone veloccity
+
+daily scrum postepy sprintu
+
+Planning - 
+ustalenie predkosci
+
+priorytetyzowanie storyjek
+szacowanie przez rozmiar ubran
+S - latwe
+
+storyjka musi miec ownera
+
+Stand up organizuje scrum master z rana
+stoi sie zeby bylo krotkie
+-ktora iteracja jakie velocity ile zrobione
+-potem team
+co zrobilem wczoraj
+co zrobie 
+jakie problemy szybko jak rozwiazac
+
+Koniec sprintu
+Review - przeglad storyjek czy zrobione - podsumowac
+
+Retrospektywa - co dobrze co zle co poprawic jak poprawic (akcje zapisane zaglosowane i omawiane na nastepnej retrospektywie
+
+demo 
+zweryfikowac czy to co zrobilismy dziala, jest zaakceptowane przez PO
+
+potem poczatek nastepnego sprinta
+Planning nastepnego dnia najlepiej
+
+Estymacja
+0 najlatwiejsze
+estymujemy w punktach
+
+Scrum --acceptance criteria
+przyklad kryteriow ktore musza byc spelnione
+
+testy przechodza, kod przegladniety 
 
 
 
